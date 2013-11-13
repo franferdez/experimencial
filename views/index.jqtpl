@@ -1,0 +1,9 @@
+{{layout "layout"}}
+<section>
+	<h1 class="logo">${title}</h1>
+		<article>
+			<p class="text">Una experiencia visual que requiere el uso de tu cámara.</p>
+			<a href="/video" class="btn-text">Entrar</a>
+		</article>
+</section>
+{{partial "github"}}

@@ -1,0 +1,9 @@
+<!doctype html>
+<html>
+  <head>
+    <title>${title}</title>
+    <link rel="icon" type="image/png" href="img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>{{html body}}</body>
+</html>

@@ -1,0 +1,44 @@
+{{layout "layout"}}
+<div id="container">
+	<header>
+        <div class="nav-config">
+            <a href="#" id="btn-config" class="img-config">configuracion</a>
+            <div class="menu-config">
+                <a href="#" id="btn-dot" class="img-punto">punto</a> 
+                <a href="#" id="btn-line" class="img-linea">linea</a> 
+                <a href="#" id="btn-plane" class="img-plano">plano</a>
+            </div>
+        </div>
+        <div class="nav-logo">
+            <a href="index" class="link-logo"><img width="30px" heigth="30px" src="img/logo.png" />EXPERIMENCIAL</a>
+        </div>
+        <div class="nav-change-mode">
+            <div class="nav-change-mode-wrapper">
+                <button type="button" id="video-select" class="img-video selected">video</button>
+                <button type="button" id="photo-select" class="img-photo">photo</button>
+            </div>
+        </div>
+    </header>
+	<section id="video-section">
+		<video autoplay id="vid" width="640" height="480"></video>
+	    <canvas id="canvas" width="640" height="480"></canvas>
+	</section>
+    <footer>
+        <div class="record-container">
+            <a href="#" id="record" class="btn-record">record</a>
+            <img  id="rendering-img" width="60px" heigth="60px" src="/img/rendering.gif"/>
+            <p id="record-timer" class="timer">0:00</p>
+        </div>
+        <div id="video-panel">
+            <div id="video-controls">
+                <button type="button" class="btn-pause" id="play-pause">Play</button>
+                <input type="range" id="seek-bar" value="0">
+            </div>
+            <a href="#" id="btn-download" target="_blank" class="btn-download"/>download</a>
+        </div>
+    </footer>
+</div>  
+<script type="text/javascript" src="js/jquery-2.0.3.min.js"> </script>
+<script type="text/javascript" src="js/xdate.js"> </script>
+<script type="text/javascript" src="js/main.js"> </script>
+<script type="text/javascript" src="js/canvasCapture.client.js"> </script>
