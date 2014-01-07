@@ -108,11 +108,17 @@ footer{
 .nav-config{
     float: left;
     width: 33.33%;
+    @media screen and (max-width:960px){ 
+         width: 25%;
+    }
 }
 
 .nav-logo{
     float: left;
     width: 33.33%;
+    @media screen and (max-width:960px){ 
+         width: 50%;
+    }
 }
 
 .link-logo{
@@ -120,7 +126,14 @@ footer{
     cursor: pointer;
     height: 30px;
     color: black;
-    font-size: 36px;
+    @media screen and (min-width:1200px){ 
+        font-size: 36px;
+    }
+    @media screen and (min-width:960px){ 
+        font-size: 28px;
+    }
+    font-size: 20px;
+
     text-decoration: none;
 }
 
@@ -132,6 +145,9 @@ footer{
 .nav-change-mode{
     float: right;
     width: 33.33%;
+    @media screen and (max-width:960px){ 
+         width: 25%;
+    }
 }
 
 .nav-change-mode-wrapper{

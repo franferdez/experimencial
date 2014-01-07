@@ -1,5 +1,6 @@
 module.exports = function (app) {
     app.get('/', index);
+    app.get('/index', index);
     app.get('/video', video);
 };
 

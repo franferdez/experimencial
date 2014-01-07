@@ -94,17 +94,37 @@ footer {
   float: left;
   width: 33.33%;
 }
+@media screen and (max-width: 960px) {
+  .nav-config {
+    width: 25%;
+  }
+}
 .nav-logo {
   float: left;
   width: 33.33%;
+}
+@media screen and (max-width: 960px) {
+  .nav-logo {
+    width: 50%;
+  }
 }
 .link-logo {
   display: block;
   cursor: pointer;
   height: 30px;
   color: black;
-  font-size: 36px;
+  font-size: 20px;
   text-decoration: none;
+}
+@media screen and (min-width: 1200px) {
+  .link-logo {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .link-logo {
+    font-size: 28px;
+  }
 }
 .link-logo img {
   position: relative;
@@ -113,6 +133,11 @@ footer {
 .nav-change-mode {
   float: right;
   width: 33.33%;
+}
+@media screen and (max-width: 960px) {
+  .nav-change-mode {
+    width: 25%;
+  }
 }
 .nav-change-mode-wrapper {
   float: right;
