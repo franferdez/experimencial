@@ -169,6 +169,7 @@ module.exports = function() {
    * Triggers ffmpeg to render the captured frames into a video.
    */
   appProxy.post('/capture/:id/render', function(request, response) {
+    console.log('start render in node side');
     var source = resolvePath(request.params.id, '%d.png');
     var dest   = resolvePath(request.params.id, 'canvas.mp4');
     var prog   = resolvePath(request.params.id, 'progress');

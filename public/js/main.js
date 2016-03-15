@@ -153,7 +153,7 @@ var app = {
                         this.isRecording=false;
                         $('#record').removeClass('btn-stop-record').hide();
                         $('#rendering-img').show();
-                        app.recorder.stop();
+                        //app.recorder.stop();
                         app.recorder.render();
                         // Listen for rendering progress changes
                         app.recorder.addRenderProgressListener(function(progress) {
